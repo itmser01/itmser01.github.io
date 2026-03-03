@@ -1,0 +1,45 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family:
+    PT Serif,
+    serif;
+  background-color: #2930134c;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 20px;
+  color: #2930134c;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px gray;
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0% auto;
+  background-color: #8d8d8d;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #8d8d8d;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
